@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# CauseConnect — Volunteer Match AI
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/8e77f3fb-876e-4934-939e-9aa07533c4e1
+An AI-powered platform that helps volunteers discover suitable volunteering opportunities and supports event registration workflows.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js
+- npm
 
+### Setup
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+   ```bash
+   npm install
+   ```
+
+2. Configure your local environment variables in `.env.local`. Add the required API keys and configuration values there. Never commit real secrets to GitHub.
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the local URL printed in your terminal.
+
+## Technology Stack
+
+- React and Vite
+- TypeScript
+- Supabase
+- Browserbase
+
+## Deployment
+
+The frontend can be deployed using a Vite-compatible hosting service. Configure required environment variables in the hosting provider's project settings.
+
+## Security
+
+Never commit API keys, passwords, access tokens, or other secrets. Keep local environment files out of version control.
