@@ -47,7 +47,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md', onClick
         <span className={`font-serif font-bold text-[#244C3A] tracking-tight ${textSizes[size]}`}>
           CauseConnect
         </span>
-        <span className={`ml-1.5 font-serif font-semibold text-[#315D48] ${textSizes[size]}`}>
+        <span className={`ml-1.5 font-serif font-semibold text-white ${textSizes[size]}`}>
           AI
         </span>
       </div>
